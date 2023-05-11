@@ -19,15 +19,6 @@ void input()
 		else
 			cout << "\nArray should have minimum 1 and maximum 36 elements.\n\n";
 	}
-
-	cout << "\n--------------------\n";
-	cout << " Enter array elements \n";
-	cout << "----------------------\n";
-	for (i = 0; i < n; i++)
-	{
-		cout << "<" << (i + 1) << "> ";
-		cin >> Wahyu[i];
-	}
 }
 
 void BinarySearch()
